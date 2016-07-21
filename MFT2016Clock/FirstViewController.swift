@@ -16,6 +16,7 @@ class FirstViewController: VideoSplashViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var hourLabel: UILabel!
     @IBOutlet weak var alermSwitch: UISwitch!
     private var setTime: String?
+    private var isAlert: Bool = true
     
     let ud = NSUserDefaults.standardUserDefaults()
     
@@ -44,6 +45,10 @@ class FirstViewController: VideoSplashViewController, AVAudioPlayerDelegate {
         if(alermSwitch.on){
             var udId : AnyObject! = ud.objectForKey("alertTime")
             print(udId)
+            isAlert = true
+        } else {
+            print("off")
+            isAlert = false
         }
     }
     
@@ -109,7 +114,9 @@ class FirstViewController: VideoSplashViewController, AVAudioPlayerDelegate {
     func myAlarm(str: String) {
         // 現在時刻が設定時刻と一緒なら
         if str == setTime{
-            alert()
+            if(isAlert){
+                alert()
+            }
         }
     }
     

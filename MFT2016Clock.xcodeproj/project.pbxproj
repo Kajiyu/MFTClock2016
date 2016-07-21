@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14C385FAAC41A7369C64A083 /* Pods_MFT2016Clock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4491BC1481C239ADA42DB4F3 /* Pods_MFT2016Clock.framework */; };
 		4B6798301D3DB6EB0035926F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B67982F1D3DB6EB0035926F /* AppDelegate.swift */; };
 		4B6798321D3DB6EB0035926F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6798311D3DB6EB0035926F /* FirstViewController.swift */; };
 		4B6798341D3DB6EB0035926F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6798331D3DB6EB0035926F /* SecondViewController.swift */; };
 		4B6798371D3DB6EB0035926F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6798351D3DB6EB0035926F /* Main.storyboard */; };
 		4B6798391D3DB6EB0035926F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6798381D3DB6EB0035926F /* Assets.xcassets */; };
 		4B67983C1D3DB6EB0035926F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B67983A1D3DB6EB0035926F /* LaunchScreen.storyboard */; };
+		4B6E0A681D4075D800D63575 /* AlermData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6E0A671D4075D800D63575 /* AlermData.swift */; };
+		4B6E0A6A1D4080E900D63575 /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B6E0A691D4080E900D63575 /* music1.mp3 */; };
+		4BB0977D1D3E146D00E7562B /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4BB0977C1D3E146D00E7562B /* sample.mp4 */; };
+		4BE185AE1D3E098A004A0D22 /* RADIOLAND.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BE185AD1D3E098A004A0D22 /* RADIOLAND.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C26A9CCEEDE8AA290BB2864 /* Pods-MFT2016Clock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFT2016Clock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MFT2016Clock/Pods-MFT2016Clock.debug.xcconfig"; sourceTree = "<group>"; };
+		4491BC1481C239ADA42DB4F3 /* Pods_MFT2016Clock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFT2016Clock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B67982C1D3DB6EB0035926F /* MFT2016Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFT2016Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B67982F1D3DB6EB0035926F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B6798311D3DB6EB0035926F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,12 @@
 		4B6798381D3DB6EB0035926F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B67983B1D3DB6EB0035926F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B67983D1D3DB6EB0035926F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B6E0A671D4075D800D63575 /* AlermData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlermData.swift; sourceTree = "<group>"; };
+		4B6E0A691D4080E900D63575 /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
+		4B6E0A6B1D408A1E00D63575 /* sample2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample2.mp4; sourceTree = "<group>"; };
+		4BB0977C1D3E146D00E7562B /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
+		4BE185AD1D3E098A004A0D22 /* RADIOLAND.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RADIOLAND.ttf; sourceTree = "<group>"; };
+		80B748686C1EDC64AE06F724 /* Pods-MFT2016Clock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MFT2016Clock.release.xcconfig"; path = "Pods/Target Support Files/Pods-MFT2016Clock/Pods-MFT2016Clock.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C385FAAC41A7369C64A083 /* Pods_MFT2016Clock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +56,8 @@
 			children = (
 				4B67982E1D3DB6EB0035926F /* MFT2016Clock */,
 				4B67982D1D3DB6EB0035926F /* Products */,
+				6B0704C0EB63069499BF6BB8 /* Pods */,
+				B9A9029539A1E9546E2451D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +72,53 @@
 		4B67982E1D3DB6EB0035926F /* MFT2016Clock */ = {
 			isa = PBXGroup;
 			children = (
+				4BE185A91D3E090B004A0D22 /* Resources */,
 				4B67982F1D3DB6EB0035926F /* AppDelegate.swift */,
 				4B6798311D3DB6EB0035926F /* FirstViewController.swift */,
 				4B6798331D3DB6EB0035926F /* SecondViewController.swift */,
+				4B6E0A671D4075D800D63575 /* AlermData.swift */,
 				4B6798351D3DB6EB0035926F /* Main.storyboard */,
 				4B6798381D3DB6EB0035926F /* Assets.xcassets */,
 				4B67983A1D3DB6EB0035926F /* LaunchScreen.storyboard */,
 				4B67983D1D3DB6EB0035926F /* Info.plist */,
 			);
 			path = MFT2016Clock;
+			sourceTree = "<group>";
+		};
+		4BE185A91D3E090B004A0D22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B6E0A691D4080E900D63575 /* music1.mp3 */,
+				4B6E0A6B1D408A1E00D63575 /* sample2.mp4 */,
+				4BB0977C1D3E146D00E7562B /* sample.mp4 */,
+				4BE185AA1D3E091A004A0D22 /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4BE185AA1D3E091A004A0D22 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4BE185AD1D3E098A004A0D22 /* RADIOLAND.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		6B0704C0EB63069499BF6BB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C26A9CCEEDE8AA290BB2864 /* Pods-MFT2016Clock.debug.xcconfig */,
+				80B748686C1EDC64AE06F724 /* Pods-MFT2016Clock.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9A9029539A1E9546E2451D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4491BC1481C239ADA42DB4F3 /* Pods_MFT2016Clock.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B6798401D3DB6EB0035926F /* Build configuration list for PBXNativeTarget "MFT2016Clock" */;
 			buildPhases = (
+				6DED6F2B56624C1080683358 /* [CP] Check Pods Manifest.lock */,
 				4B6798281D3DB6EB0035926F /* Sources */,
 				4B6798291D3DB6EB0035926F /* Frameworks */,
 				4B67982A1D3DB6EB0035926F /* Resources */,
+				0CCE297BC5C5C152C9D5D685 /* [CP] Embed Pods Frameworks */,
+				46EF6A4A463518A4387DC334 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,12 +184,63 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B67983C1D3DB6EB0035926F /* LaunchScreen.storyboard in Resources */,
+				4BB0977D1D3E146D00E7562B /* sample.mp4 in Resources */,
 				4B6798391D3DB6EB0035926F /* Assets.xcassets in Resources */,
 				4B6798371D3DB6EB0035926F /* Main.storyboard in Resources */,
+				4B6E0A6A1D4080E900D63575 /* music1.mp3 in Resources */,
+				4BE185AE1D3E098A004A0D22 /* RADIOLAND.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CCE297BC5C5C152C9D5D685 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFT2016Clock/Pods-MFT2016Clock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46EF6A4A463518A4387DC334 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MFT2016Clock/Pods-MFT2016Clock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DED6F2B56624C1080683358 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4B6798281D3DB6EB0035926F /* Sources */ = {
@@ -140,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B6798341D3DB6EB0035926F /* SecondViewController.swift in Sources */,
+				4B6E0A681D4075D800D63575 /* AlermData.swift in Sources */,
 				4B6798301D3DB6EB0035926F /* AppDelegate.swift in Sources */,
 				4B6798321D3DB6EB0035926F /* FirstViewController.swift in Sources */,
 			);
@@ -252,6 +361,7 @@
 		};
 		4B6798411D3DB6EB0035926F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C26A9CCEEDE8AA290BB2864 /* Pods-MFT2016Clock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MFT2016Clock/Info.plist;
@@ -263,6 +373,7 @@
 		};
 		4B6798421D3DB6EB0035926F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80B748686C1EDC64AE06F724 /* Pods-MFT2016Clock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MFT2016Clock/Info.plist;
@@ -291,6 +402,7 @@
 				4B6798421D3DB6EB0035926F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

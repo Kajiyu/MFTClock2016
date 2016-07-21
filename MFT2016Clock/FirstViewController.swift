@@ -15,7 +15,7 @@ class FirstViewController: VideoSplashViewController, AVAudioPlayerDelegate {
     
     @IBOutlet weak var hourLabel: UILabel!
     @IBOutlet weak var alermSwitch: UISwitch!
-    private var setTime: String = "00:00"
+    private var setTime: String?
     
     let ud = NSUserDefaults.standardUserDefaults()
     
@@ -92,7 +92,7 @@ class FirstViewController: VideoSplashViewController, AVAudioPlayerDelegate {
     func update() {
         // 現在時刻を取得
         let udId : AnyObject! = ud.objectForKey("alertTime")
-        setTime = udId as! String
+        setTime = udId as? String
         nowTime()
         let str = getNowTime()
         if str == setTime {
@@ -133,6 +133,9 @@ class FirstViewController: VideoSplashViewController, AVAudioPlayerDelegate {
         if let url = NSBundle.mainBundle().URLForResource(fileName, withExtension: fileType) {
             do {
                 audioPlayer = try AVAudioPlayer(contentsOfURL: url)
+                
+                let udId : AnyObject! = ud.objectForKey("audioVolume")
+                audioPlayer?.volume = (udId as? Float)!
                 audioPlayer!.play()
             } catch {
                 // プレイヤー作成失敗

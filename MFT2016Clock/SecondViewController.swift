@@ -48,6 +48,7 @@ class SecondViewController: UIViewController {
     
     
     @IBAction func changeVolume(sender: AnyObject) {
+        ud.setObject(volumeSlider.value, forKey: "audioVolume");
     }
     
     
